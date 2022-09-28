@@ -4,8 +4,8 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<title>เรื่องเล่าของคุณ</title>
+	<meta name="description" content="by Put a Smile on a Child's Face" />
 </svelte:head>
 
 <section class="relative background-screen min-h-screen overflow-hidden w-full py-32 sm:py-4 px-8">

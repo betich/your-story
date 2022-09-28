@@ -8,6 +8,11 @@
 	$: story = data.story;
 </script>
 
+<svelte:head>
+	<title>{story.title} - เรื่องเล่าของคุณ</title>
+	<meta name="description" content="by Put a Smile on a Child's Face" />
+</svelte:head>
+
 <section class="min-h-screen main-section text-white" style="--bg-color: {story.bgcolor}">
 	<div class="flex mx-auto py-12 px-8 flex-col gap-6 max-w-4xl justify-center items-center">
 		<div class="flex justify-between items-center px-12 w-full">
